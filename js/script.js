@@ -12,8 +12,8 @@ $(document).ready(function(){
         // Изменение точек под слайдером
         dots: true,
         dotsClass: 'bg-main__slick-dots',
-        prevArrow: '<button type="button" class="slick-prev"><img src="../icons/slick-arrow/left-arrow.svg"></button>',
-		nextArrow: '<button type="button" class="slick-next"><img src="../icons/slick-arrow/right-arrow.svg"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons/slick-arrow/left-arrow.svg"></button>',
+		nextArrow: '<button type="button" class="slick-next"><img src="icons/slick-arrow/right-arrow.svg"></button>',
 	});
 	
 	$('.expert__slick').slick({
@@ -27,8 +27,8 @@ $(document).ready(function(){
 		slidesToScroll: 1,
 		fade: true,
   		cssEase: 'linear',
-        prevArrow: '<button type="button" class="slick-prev-expert"><img src="../img/slider/arrow-left.svg"></button>',
-		nextArrow: '<button type="button" class="slick-next-expert"><img src="../img/slider/arrow-right.svg"></button>',
+        prevArrow: '<button type="button" class="slick-prev-expert"><img src="img/slider/arrow-left.svg"></button>',
+		nextArrow: '<button type="button" class="slick-next-expert"><img src="img/slider/arrow-right.svg"></button>',
 	});
 	
 	// Скрипт для стрелки вверх
