@@ -1,0 +1,53 @@
+.data
+    min-height: 580px
+    &__wrapper
+        margin-top: 80px
+        display: flex
+        justify-content: center
+        text-align: center
+    &__wrapper-left
+        position: relative
+    &__wrapper-right
+        position: relative
+
+    &__img
+        background: cocver
+        width: 100%
+    &__square-left, .data__square-right
+        position: absolute
+        top: 232px
+        height: 167px
+        background-color: #00c2f0
+        opacity: 0.3
+    &__square-left
+        right: 43px
+    &__square-right
+        left: 48px
+
+    &__text-left, .data__text-right
+        position: absolute
+        top: 270px
+        color: #ffffff
+        font-size: 30px
+        font-weight: 700
+        line-height: 22px
+        text-transform: uppercase
+    &__text-left
+        right: 82px
+    &__text-right
+        left: 82px
+
+    &__text-left-sub, .data__text-right-sub
+        position: absolute
+        top: 317px
+        width: 500px
+        color: #ffffff
+        font-size: 18px
+        font-weight: 300
+        line-height: 26px
+    &__text-left-sub
+        right: 82px
+        text-align: right
+    &__text-right-sub
+        left: 82px
+        text-align: left

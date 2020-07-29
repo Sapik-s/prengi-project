@@ -1,0 +1,109 @@
+.bg-main
+    position: relative
+    margin-top: 19px
+    width: 100%
+    &__slick-wrapper
+    &__slick-main
+        img
+            width: 100%
+        // Стрелки
+        .slick-prev, .slick-next
+            position: absolute
+            cursor: pointer
+            right: 46%
+            transform: translateX(-55%)
+            align-items: center
+            bottom: 83px
+            background: none
+            border: none
+            outline: none
+            opacity: 100
+            width: 20px
+        .slick-prev
+            z-index: +100
+            left: 46%
+            transform: translateX(-55%)
+    // Точки для слайдера
+    &__slick-dots
+        position: relative
+        cursor: pointer
+        list-style: none
+        display: flex
+        text-align: center
+        justify-content: center
+        position: absolute
+        left: 49%
+        transform: translateX(-57%)
+        bottom: 68px
+    // Скрываем текст
+    button
+        font-size: 0
+        opacity: 0
+    // Основные круги
+    li
+        list-style: none
+        width: 11px
+        height: 11px
+        border: 2px solid #ffffff
+        background-color: rgba(255, 255, 255, 0)
+        border-radius: 100%
+        outline: none
+        margin: 0 3px 0 0
+    // Активный круг
+    .slick-active
+        background-color: rgb(255, 255, 255)
+    &__logo
+        position: absolute
+        top: 39px
+        cursor: pointer
+    &__menu-wrapper
+        position: absolute
+        top: 64px
+        right: 390px
+        ol
+            margin-top: 0
+    &__menu-content
+        margin-left: 45px
+        text-decoration: none
+        color: #ffffff
+        font-family: Roboto
+        font-size: 13px
+        font-weight: 700
+        line-height: 26px
+        text-transform: uppercase
+        &:hover
+            text-decoration: underline
+    &__business
+        position: absolute
+        width: 529px
+        top: 192px
+        color: #ffffff
+        font-size: 42px
+        font-weight: 400
+        line-height: 48px
+    &__prengi
+        position: absolute
+        width: 426px
+        top: 329px
+        color: #ffffff
+        font-size: 24px
+        font-weight: 300
+        line-height: 30px
+        span
+            font-weight: 400
+    &__phone
+        position: absolute
+        bottom: 0
+        right: 389px
+    .button
+        position: absolute
+        top: 445px
+        opacity: 100
+        background-color: #00c2f0
+        border: none
+        border-radius: 5px
+        font-size: 16px
+        cursor: pointer
+        outline: none
+.slick-track
+    width: 100%
