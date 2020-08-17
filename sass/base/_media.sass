@@ -42,6 +42,20 @@
             margin-right: 10px
             right: 60px
             max-height: 480px
+        button.slick-next.slick-arrow
+            right: 45%
+        button.slick-prev.slick-arrow
+            left: 45.5%
+    #industries.expert
+        button.slick-next-expert.slick-arrow
+            right: -10%
+        button.slick-prev-expert.slick-arrow
+            left: -10%
+    footer.footer
+        .container
+            padding: 0 270px
+        hr
+            width: 960px
 @media (min-device-width: 992px) and (max-device-width: 1500px)
     #main
         display: flex
@@ -108,10 +122,10 @@
         button.slick-next.slick-arrow
             bottom: 34px
             width: 21px
-            right: 40%
+            right: 42%
         button.slick-prev.slick-arrow
             bottom: 35px
-            left: 42%
+            left: 44%
     #module
         .c-prengi__text, .c-prengi__text-end
             font-size: 16px
@@ -301,3 +315,187 @@
     a.up
         width: 35px
         height: 35px
+@media (max-width: 768px)
+    #main
+        padding: 0
+        .header
+            .header__content
+                display: flex
+                flex-direction: column
+                align-items: center
+                text-align: center
+                img
+                    width: 20px
+                    height: 15px
+                    margin: 0
+            .header__wrapper-text
+                margin-top: 2px
+                max-width: 115px
+                font-size: 7px
+                line-height: 14px
+                font-weight: 400
+    .bg-main
+        ul
+            li
+                width: 7px
+                height: 7px
+        .container
+            padding: 0 40px 0 20px
+        // Левая часть контента
+        .bg-main__logo
+            width: 55px
+            top: 20px
+        .bg-main__business
+            max-width: 300px
+            font-size: 10px
+            top: 61px
+            line-height: 16px
+        .bg-main__prengi
+            top: 100px
+            font-size: 8px
+            line-height: 13px
+        #button-main
+            line-height: 23px
+            font-size: 6px
+            top: 143px
+            width: 83px
+            height: 20px
+        ////////////////////////////////////
+        // Правая часть контента
+        .bg-main__wrapper-second
+            display: flex
+            justify-content: flex-end
+        .bg-main__menu-wrapper
+            width: 295px
+            top: 13px
+            right: auto
+            ol
+                padding: 0
+        .bg-main__menu-content
+            margin: 0 5px
+            font-size: 8px
+        #phone-f
+            position: absolute
+            right: 0 auto
+        .bg-main__phone
+            margin-right: 10px
+            right: 0
+            max-height: 157px
+        ////////////////////////////////////
+        .bg-main__slick-dots
+            bottom: 20px
+        button.slick-next.slick-arrow
+            bottom: 34px
+            width: 19px
+            right: 38%
+        button.slick-prev.slick-arrow
+            width: 18px
+            bottom: 35px
+            left: 42%
+    #module
+        min-height: 600px
+        .container
+            padding: 0
+        .c-prengi__text, .c-prengi__text-end
+            width: 180px
+            font-size: 11px
+        .c-prengi__title
+            font-size: 30px
+            margin-top: 0
+        .c-prengi__wrapper-img-text
+            margin-top: 47px
+            width: 195px
+            img
+                width: 150px
+    #industries
+        min-height: 550px
+        .container
+            padding: 0
+        h3.title
+            font-size: 20px
+            padding-top: 16px
+        .expert__nav
+            width: 539px
+        .expert__nav-text
+            font-size: 8px
+            padding-top: 0
+            padding-bottom: 0
+        .expert__slider-wrapper
+            width: 544px
+            height: 335px
+        .expert__slick
+            .img
+                margin-top: 22px
+                width: 400px
+                height: 270px
+            .slick-prev-expert
+                margin-left: 25px
+            .slick-next-expert
+                margin-right: 25px
+    #About-us
+        .container
+            padding: 0
+            h4.title-advantages
+                font-size: 22px
+    #Commitments
+        min-height: 100px
+        .container
+            padding: 0
+        .title-data
+            padding-top: 10px
+            font-size: 14px
+            line-height: 19px
+        .data__text-left, .data__text-right
+            top: 78px
+            font-size: 13px
+        .data__text-left
+            right: 40px
+        .data__text-right
+            left: 40px
+        .data__text-left-sub, .data__text-right-sub
+            width: 236px
+            font-size: 8px
+            top: 100px
+            line-height: 14px
+        .data__text-left-sub
+            right: 40px
+        .data__text-right-sub
+            left: 40px
+    section.access
+        min-height: 400px
+        .container
+            padding: 0 30px 0 30px
+            .access__wrapper
+                .access__brackets
+                    width: 151px
+                    height: 151px
+                .access__img
+                    width: 120px
+                    height: 120px
+            .access__text
+                font-size: 17px
+                margin-top: 50px
+                line-height: 24px
+            button.button-access
+                width: 209px
+                height: 45px
+                font-size: 13px
+    footer.footer
+        padding-bottom: 30px
+        .container
+            padding: 0 30px 0 30px
+        hr
+            width: 100%
+        .footer__text
+            font-size: 9px
+            width: 187px
+        .footer__name-column
+            font-size: 12px
+        .footer__text-column
+            font-size: 9px
+            line-height: 17px
+        .footer__end 
+            font-size: 8px
+    a.up
+        width: 30px
+        height: 30px
